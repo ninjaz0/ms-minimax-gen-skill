@@ -1,0 +1,4 @@
+interface:
+  display_name: "魔搭 MiniMax H3 视频部署"
+  short_description: "在魔搭 AMD 实例部署、恢复和验证 MiniMax H3 的文生视频与参考图工作流"
+  default_prompt: "使用 $ms-minimax-gen-skill 在我的魔搭 AMD 实例上部署需要的 H3 工作流并验证输出。"

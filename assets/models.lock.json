@@ -1,0 +1,62 @@
+{
+  "repository": "Comfy-Org/MiniMax-H3",
+  "files": [
+    {
+      "path": "vae/minimax_h3_audio_vae_fp32.safetensors",
+      "revision": "dcdcca14e93e72d8cba0b6312771cf0779e85cc1",
+      "bytes": 605254808,
+      "sha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48",
+      "modes": [
+        "t2v",
+        "r2v"
+      ]
+    },
+    {
+      "path": "vae/minimax_h3_video_vae_fp16.safetensors",
+      "revision": "76fce18cb387285747955c88756974596c9a5bb8",
+      "bytes": 5207808496,
+      "sha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
+      "modes": [
+        "t2v",
+        "r2v"
+      ]
+    },
+    {
+      "path": "diffusion_models/minimax_h3_fl2va_pruned_bf16.safetensors",
+      "revision": "18b2085178ad0f1f2d558f817b55c104a5a44fc5",
+      "bytes": 40225724176,
+      "sha256": "a32572fb90b5508b201ec7c2eddcc184b13ddfd3c6f6d2cf06a0b46535d541b4",
+      "modes": [
+        "t2v"
+      ]
+    },
+    {
+      "path": "text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors",
+      "revision": "0207c9bd588fa1f060aafa9bfe0e98f46056ae5d",
+      "bytes": 51506295256,
+      "sha256": "600d567f6a9629c8574e8e7041b199bdd9c59a986afa7906910a81919610607d",
+      "modes": [
+        "t2v",
+        "r2v"
+      ]
+    },
+    {
+      "path": "diffusion_models/minimax_h3_ref2va_pruned_bf16.safetensors",
+      "revision": "18b2085178ad0f1f2d558f817b55c104a5a44fc5",
+      "bytes": 40225724176,
+      "sha256": "37c0da793e20ca735272ec2be655f08a2e10f97a3ec8fdfb40f5b39a736ed6fe",
+      "modes": [
+        "r2v"
+      ]
+    },
+    {
+      "path": "loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "revision": "ead3b01917a16b58d8a834d6a0076d70df091c06",
+      "bytes": 1956193000,
+      "sha256": "5b9ab5ade15d0775676d01a907268a69a1468dc6033b3b0d3ded5502f3ebb84c",
+      "modes": [
+        "r2v"
+      ]
+    }
+  ]
+}
